@@ -1,0 +1,118 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-navbar{
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+}
+
+a {
+    color: black ;
+    font-size: 30px;
+}
+
+.ul-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar{
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: gray;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 100px;
+}
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
+}
+
+.cicurug {
+    width: 50%;
+    /* margin-top: 100px ; */
+}
+
+.azkiya {
+    color: black;
+    font-size: 50px;
+    margin-right: 30%;
+    /* position: absolute; */
+    /* top: 15%; */
+    /* left: 36%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+.PPLG {
+    width: 40%;
+    padding-top: 5%;
+}
+
+.murid {
+    width: 30%;
+    margin-left: 25%;
+    margin-top: -25%;
+}
+
+.hai {
+    color: black;
+    font-size: 50px;
+    /* position: absolute; */
+    /* bottom: 15%; */
+    /* left: 47%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+.h1-footer {
+    font-size: 40px;
+}
+
+.img-profile{
+    width:50%;
+    border-radius: 40px;
+}
+
+.container-content5 {
+    /* position: absolute; */
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    right: 20px;
+    flex-direction: column;
+    gap: 25px;
+    text-align: end;
+}
+
+@media screen and (max-width:500px) {
+    .content{
+        display: flex;
+        margin-left: 150%;
+    }
+}   
+
+
